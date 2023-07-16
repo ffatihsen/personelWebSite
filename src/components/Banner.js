@@ -10,6 +10,8 @@ import {motion} from "framer-motion";
 
 import {fadeIn} from "../variants";
 
+import { Link } from 'react-scroll';
+
 const Banner = () => {
   return <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
     <div className='container mx-auto'>
@@ -60,7 +62,11 @@ const Banner = () => {
           whileInView={"show"}
           viewport={{once:false, amount:0.7}}
           >
+            <Link to='contact'  >
             <button className='btn btn-lg'>Contact me</button>
+          </Link>
+
+            
             <a href='#' className='text-gradient btn-link' >My portfolio</a>
           </motion.div>
 
