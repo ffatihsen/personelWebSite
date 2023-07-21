@@ -27,7 +27,9 @@ const Work = () => {
             </h2>
 
             <p className='mx-w-sm mb-16'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            I have always developed myself in various fields.
+I turned the technologies I learned into projects that could be used in daily life.
+I also explained the technologies I learned as an instructor on the Udemy training platform.
             </p>
             <a href='https://github.com/ffatihsen'  >
             <button className='btn btn-lg'>View all projects</button>
@@ -46,12 +48,12 @@ const Work = () => {
 
               {/* projeTitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>JavaScript Programing</span>
               </div>
 
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3x1 text-white'>Projects Title</span>
+                <span className='text-3x1 text-white'>Developing many applications with ReactJs NodeJs</span>
               </div>
             </div>
         </motion.div>
@@ -73,12 +75,12 @@ const Work = () => {
 
               {/* projeTitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Python Programing</span>
               </div>
 
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3x1 text-white'>Projects Title</span>
+                <span className='text-3x1 text-white'>Udemy traInIng</span>
               </div>
             </div>
 
@@ -93,12 +95,12 @@ const Work = () => {
 
               {/* projeTitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Mobile Programing</span>
               </div>
 
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3x1 text-white'>Projects Title</span>
+                <span className='text-3x1 text-white'>Many mobile application development with flutter</span>
               </div>
             </div>
 

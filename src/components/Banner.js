@@ -54,7 +54,10 @@ const Banner = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{once:false, amount:0.7}}
-          >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</motion.p>
+          >
+            I always try to improve myself. Since I think it is important to share the technologies I have experienced with my environment, I care about being a sharer. In addition, I train approximately 24 thousand people on Udemy in order to convey the information I have learned to wider audiences.
+            
+            </motion.p>
 
           <motion.div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
           variants={fadeIn("up",0.6)}
@@ -76,15 +79,15 @@ const Banner = () => {
           whileInView={"show"}
           viewport={{once:false, amount:0.7}}
           >
-            <a href='#'>
+            <a href='https://www.youtube.com/channel/UCXNTLKOOK3SK1HqRAmklPww'>
               <FaYoutube />
             </a>
 
-            <a href='#'>
+            <a href='https://github.com/ffatihsen'>
               <FaGithub />
             </a>
 
-            <a href='#'>
+            <a href='https://www.udemy.com/user/fatih-sem/'>
               <FaDribbble />
             </a>
           </motion.div>

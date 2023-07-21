@@ -33,13 +33,17 @@ const About = () => {
           <h2 className='h2 text-accent'>About me.</h2>
           <h3 className='h3 mb-4'>I'm a Freelance Front-end Developer with over 2 years of experience.</h3>
           <p className='mb-6 '>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          I graduated from Konya Technical University in the field of computer engineering and have been working as a Full Stack Developer in Turkey for a long time.
+Thanks to the full stack experience in software development, I can both create user-friendly interfaces on the front and build efficient and reliable systems on the back.
+By combining my passion for coding, creativity and problem solving skills, I am always determined to do my best to achieve successful results in projects.
+
+I look forward to cooperating with you and participating in new projects!
           </p>
 
           <div className='flex gap-x-6 lg:gap-x-10 mb-12 '>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                {inView ? <CountUp start={0} end={6} duration={3} /> : null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Years of Experience
@@ -49,7 +53,7 @@ const About = () => {
 
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={15} duration={3} /> : null}
+                {inView ? <CountUp start={0} end={8} duration={3} /> : null}
                 k+
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -61,7 +65,7 @@ const About = () => {
 
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {inView ? <CountUp start={0} end={12} duration={3} /> : null}
+                {inView ? <CountUp start={0} end={6} duration={3} /> : null}
                 k+
               </div>
               <div className='font-primary text-sm tracking-[2px]'>

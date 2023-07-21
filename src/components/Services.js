@@ -9,25 +9,25 @@ import { fadeIn } from '../variants';
 const services = [
   {
     name : 'UI/UX Design',
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ",
+    description:"It involves the creation of visual and interactive elements that facilitate users' interaction with an application or website. ",
     link:'Learn more'
   },
 
   {
     name : 'Development',
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ",
+    description:"The application will be developed with the experience of taking part in many projects.",
     link:'Learn more'
   },
 
   {
     name : 'Digital Marketing',
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ",
+    description:"Digital Marketing replaces traditional marketing methods and enables reaching target audiences in a more effective and personalized way through digital platforms. ",
     link:'Learn more'
   },
 
   {
     name : 'Product Branding',
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ",
+    description:"Product Branding is an important marketing strategy that increases the power of a product or service. Successful product branding emphasizes the value and uniqueness of the brand, leaving a positive impression on consumers. ",
     link:'Learn more'
   }
 
